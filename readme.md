@@ -9,7 +9,7 @@ Database abstraction is provided by EF Core 3.1.
 To run the project run `npm start` in the `.\ClientApp` folder and `dotnet run` in the root folder - in that order. This will allow Angular development in front-end or server without having to rebuild the other.
 
 #### Configuration
-##### Identity Server
+##### IdentityServer4
 IdentityServer has discrete settings for development and production configuration. In a development config, IS4 will use the local certificate file `auth_key_dev.pfx`. In production, IS4 will look for the same certificate in the cert store on the deployed machine.
 
 Settings for the certificate thumbrint `auth_cert_thumbprint` (prod & dev) and cert password `auth_cert_password` (dev only) are required.
